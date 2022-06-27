@@ -43,12 +43,12 @@ p {
     width: 100%;
 }
 
-.principal {
+.caixa-principal {
     background: #cccccc;
 
 }
 
-.principal p {
+.caixa-principal p {
     padding: 20px;
 }
 
