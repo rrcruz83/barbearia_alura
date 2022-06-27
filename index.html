@@ -3,12 +3,24 @@
     <head><!--Informações que queremos passar para o navegador no head-->
         <meta charset="UTF-8">
         <title>Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body><!--Tags de conteúdo ficam no body-->
         <header>
-            <h1 class="titulo-principal">Barbearia Alura</h1>
+            <div class="caixa">
+                <h1><img src="img/logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+        
         <img id="banner" src="img/banner.jpg">
         <div class="principal">
             <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
@@ -18,13 +30,18 @@
         </div>
         <div class="beneficios">
             <h3 class="titulo-centralizado">Benefícios</h3>
-            <ul><!--unordered list-->
+            <ul class="lista-beneficios"><!--unordered list-->
                 <li class="itens">Atendimento aos clientes</li> <!--list item-->
                 <li class="itens">Espaço diferenciado</li>
                 <li class="itens">Localização</li>
                 <li class="itens">Profissionais Qualificados</li>
             </ul>
             <img id="imgbeneficios" src="img/beneficios.jpg">
+
+            <footer>
+                <img src="img/logo-branco.png">
+                <p class="copyright">&copy Copyright Barbearia Alura - 2022</p>
+            </footer>
         </div>
     </body>
 </html>
