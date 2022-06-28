@@ -35,57 +35,8 @@ nav a:hover {
     text-decoration: underline;
 }
 
-p {
-    text-align: center;
-}
-
-#banner {
-    width: 100%;
-}
-
-.caixa-principal {
-    background: #cccccc;
-
-}
-
-.caixa-principal p {
-    padding: 20px;
-}
-
-#missao {
-    font-size: 20px;
-    font-style: italic;
-}
-
-em strong {
-    color: #FF0000;
-    font-weight: bold; 
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background-color: #FFFFFF;
-    padding: 20px;
-}
-
-.titulo-centralizado {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 20px;
-}
-
-.lista-beneficios {
-    display: inline-block;
-    vertical-align: top;
-    width: 29%;
-}
-
-#imgbeneficios {
-    width: 70%;
+main {
+    height: 400px;
 }
 
 footer {
