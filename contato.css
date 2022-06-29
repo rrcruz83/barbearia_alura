@@ -44,7 +44,7 @@ form {
     margin: 20px 40px;
 }
 
-form label, p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 10px 0 10px;
