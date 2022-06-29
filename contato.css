@@ -36,7 +36,25 @@ nav a:hover {
 }
 
 main {
-    height: 400px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+form input {
+    display: block;
+    margin: 10px 0 0;
+    padding: 10px 25px;
+    width: 50%;
 }
 
 footer {
