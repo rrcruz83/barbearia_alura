@@ -35,35 +35,38 @@ nav a:hover {
     text-decoration: underline;
 }
 
-p {
-    text-align: center;
-}
-
-#banner {
+.img-banner {
     width: 100%;
 }
 
 .caixa-principal {
-    background: #cccccc;
-
+    position: relative;
+    width: 940px;
+    margin: auto;
+    text-align: justify;
 }
 
 .caixa-principal p {
-    padding: 20px;
-}
-
-#missao {
+    margin: 0 0 1em;
     font-size: 20px;
-    font-style: italic;
 }
 
-em strong {
-    color: #FF0000;
+.caixa-principal strong {
     font-weight: bold; 
+}
+
+.caixa-principal em {
+    font-style: italic;
 }
 
 .itens {
     font-style: italic;
+}
+
+.img-utensilios {
+    width: 120px;
+    float: left;
+    padding: 0 20px 20px 0;
 }
 
 .beneficios {
@@ -71,11 +74,19 @@ em strong {
     padding: 20px;
 }
 
-.titulo-centralizado {
+.titulo-principal {
     text-align: center;
-    font-size: 30px;
+    font-size: 2.5em;
     font-weight: bold;
-    padding: 20px;
+    margin: 0 0 1em;
+    
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 1em;
 }
 
 .lista-beneficios {
@@ -84,7 +95,7 @@ em strong {
     width: 29%;
 }
 
-#imgbeneficios {
+.img-beneficios {
     width: 70%;
 }
 
