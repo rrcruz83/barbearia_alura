@@ -1,6 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif; 
 }
 
 header {
@@ -101,6 +100,7 @@ em > strong {
     font-size: 2em;
     font-weight: bold;
     margin: 1em 0 1em 0; 
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .conteudo-beneficios {
@@ -116,6 +116,12 @@ em > strong {
 
 .img-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.img-beneficios:hover {
+    opacity: 0.8;
 }
 
 .video {
@@ -123,6 +129,16 @@ em > strong {
     margin: auto;
     padding: 1em;
 }
+
+iframe {
+    transition: 400ms;
+}
+
+iframe:hover {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+
 
 footer {
     text-align: center;
