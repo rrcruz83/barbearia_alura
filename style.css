@@ -1,11 +1,16 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 header {
     background: #BBBBBB;
     padding: 20px 0;
     margin-bottom: 3px;
+}
+
+main {
+    background: linear-gradient(#FFFFFF, #888888);
 }
 
 .caixa {
@@ -46,7 +51,7 @@ nav a:hover {
 .caixa-principal {
     position: relative;
     width: 940px;
-    margin: auto;
+    margin: 0 auto;
     text-align: justify;
 }
 
@@ -64,12 +69,21 @@ p {
 }
 
 .estabelecimento {
-    margin: auto;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
     text-align: center;
+    
 }
 
 .itens {
+    line-height: 1.5em;
     font-style: italic;
+}
+
+.itens:before {
+    content: "✭";
+    padding: 5px;
 }
 
 .img-utensilios {
@@ -78,33 +92,32 @@ p {
     padding: 0 20px 20px 0;
 }
 
-.beneficios {
-    background-color: #FFFFFF;
-    padding: 20px;
-}
-
 .titulo {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
-    margin: 0.3em 0 0.5em 0; 
+    margin: 1em 0 1em 0; 
 }
 
-
+.conteudo-beneficios {
+    width: 640px;
+    margin: 2em auto;
+}
 
 .lista-beneficios {
     display: inline-block;
     vertical-align: top;
-    width: 29%;
+    width: 40%;
 }
 
 .img-beneficios {
-    width: 70%;
+    width: 60%;
 }
 
 .video {
     width: 560px;
     margin: auto;
+    padding: 1em;
 }
 
 footer {
