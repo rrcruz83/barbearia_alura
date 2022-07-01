@@ -60,12 +60,16 @@ p {
     font-size: 20px;
 }
 
-.caixa-principal strong {
+p > strong {
     font-weight: bold; 
 }
 
-.caixa-principal em {
+p > em {
     font-style: italic;
+}
+
+em > strong {
+    font-weight: bold;
 }
 
 .estabelecimento {
