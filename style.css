@@ -125,7 +125,7 @@ em > strong {
 }
 
 .video {
-    width: 560px;
+    width: auto;
     margin: auto;
     padding: 1em;
 }
@@ -135,10 +135,8 @@ iframe {
 }
 
 iframe:hover {
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
 }
-
-
 
 footer {
     text-align: center;
@@ -149,4 +147,24 @@ footer {
 .copyright {
     color: #FFFFFF;
     font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .caixa-principal, .estabelecimento, .conteudo-beneficios, .video {
+        width: auto;
+    }
+
+    .logo-principal {
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .lista-beneficios, .img-beneficios {
+        width: 100%;
+
+    }
 }
