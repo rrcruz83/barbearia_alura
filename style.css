@@ -1,7 +1,15 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
     margin-bottom: 3px;
+}
+
+main {
+    background: linear-gradient(#FFFFFF, #888888);
 }
 
 .caixa {
@@ -35,57 +43,99 @@ nav a:hover {
     text-decoration: underline;
 }
 
-p {
-    text-align: center;
-}
-
-#banner {
+.img-banner {
     width: 100%;
 }
 
 .caixa-principal {
-    background: #cccccc;
-
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
-.caixa-principal p {
-    padding: 20px;
-}
-
-#missao {
+p {
+    margin: 0 0 1em;
     font-size: 20px;
-    font-style: italic;
 }
 
-em strong {
-    color: #FF0000;
+p > strong {
     font-weight: bold; 
 }
 
-.itens {
+p > em {
     font-style: italic;
 }
 
-.beneficios {
-    background-color: #FFFFFF;
-    padding: 20px;
+em > strong {
+    font-weight: bold;
 }
 
-.titulo-centralizado {
+.estabelecimento {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
     text-align: center;
-    font-size: 30px;
+    
+}
+
+.itens {
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+.itens:before {
+    content: "✭";
+    padding: 5px;
+}
+
+.img-utensilios {
+    width: 120px;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
     font-weight: bold;
-    padding: 20px;
+    margin: 1em 0 1em 0; 
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 2em auto;
 }
 
 .lista-beneficios {
     display: inline-block;
     vertical-align: top;
-    width: 29%;
+    width: 40%;
 }
 
-#imgbeneficios {
-    width: 70%;
+.img-beneficios {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.img-beneficios:hover {
+    opacity: 0.8;
+}
+
+.video {
+    width: auto;
+    margin: auto;
+    padding: 1em;
+}
+
+iframe {
+    transition: 400ms;
+}
+
+iframe:hover {
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -97,4 +147,24 @@ footer {
 .copyright {
     color: #FFFFFF;
     font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .caixa-principal, .estabelecimento, .conteudo-beneficios, .video {
+        width: auto;
+    }
+
+    .logo-principal {
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .lista-beneficios, .img-beneficios {
+        width: 100%;
+
+    }
 }
